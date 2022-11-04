@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 EXTRAS_REQUIRE = {
     "sqlalchemy": [
-        "flask-sqlalchemy",
+        "flask-sqlalchemy>=3.0.0",
         "marshmallow-sqlalchemy>=0.24.0",
     ],
     "docs": ["marshmallow-sqlalchemy>=0.13.0", "Sphinx==3.5.4", "sphinx-issues==1.2.0"],
